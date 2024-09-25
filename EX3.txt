@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int a , b ;
+    printf("entrer a ");
+    scanf("%d",&a);
+    printf("entrer b ");
+    scanf("%d",&b);
+    a + b;
+     printf("la somme est  %d \n ",a+b);
+    a*b;
+    printf("produit est %d \n",a*b);
+    a-b;
+     printf("LA deffrance est %d", a-b);
+    
+    
+    
+    
+
+    return 0;
+}

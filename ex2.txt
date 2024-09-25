@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    float C;
+    printf("valleus entre le temperature en Celsius",C );
+    scanf("%f",&C);
+    float K = C + 273.15;
+    printf("le temperature en Celsius is",C );
+
+    return ;
+}
+
+
+   
+}
