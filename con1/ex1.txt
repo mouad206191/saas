@@ -1,0 +1,14 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int nombre;
+    printf("veullez entre la nombre ? ");
+    scanf("%d",&nombre);
+    if (nombre % 2 == 0 ) {
+printf("la nomber is pair");
+} else if (nombre % 2 > 0){
+printf("la nomber is impair");
+}
+    return 0;
+}

@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int nuits;
+    printf("veuillz entre la moyenne de ses notes?");
+    scanf("%d",&nuits);
+    if (nuits < 10){
+    printf("la eleve est recale");
+    }else if(10<=nuits&&nuits<12){
+    printf("la eleve obtient la mention passable");
+   } else if (12<=nuits&&nuits<14){
+    printf("la eleve obtient mention assez bien");
+    }else if(14<=nuits&&nuits<16){
+printf("la eleve obtient la mention bien");
+    } else { 
+     printf("la eleve obtient très bien");
+     }  
+
+    return 0;
+}
