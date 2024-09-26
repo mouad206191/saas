@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char nom[20],prenom[20],sexe[20],adressEmail[70];
+    int age;
+    printf("donner le nom et le prenom et sexe et age et adressEmail : ");
+    scanf("%s",&nom);
+    scanf("%s",&prenom);
+    scanf("%s",&sexe);
+    scanf("%s",&adressEmail);
+    scanf("%d",&age);
+
+    printf("la nom et le prenom et sexe et adressEmail et age : %s %s %s %s %d ", nom, prenom, sexe, adressEmail,age);
+    return 0;
+}

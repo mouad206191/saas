@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, somme;
+    printf("entrez la premiere valeur: ");
+    scanf("%d", &a);
+    printf("entrez la deuxieme valeur: ");
+    scanf("%d", &b);
+        if (a == b) {
+        somme = 3 * (a + b); 
+    } else {
+        somme = a + b;
+    }
+    printf("Le resultat est: %d",somme);
+
+    return 0;
+}

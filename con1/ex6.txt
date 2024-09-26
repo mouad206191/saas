@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("vauillez entre la nomber");
+    scanf("%d",&n);
+    if (n>0)
+printf("la nomber is positf");
+else if (n<0)
+printf("la nomber is negatif");
+else 
+      printf("la nomber is nul");
+    return 0;
+}

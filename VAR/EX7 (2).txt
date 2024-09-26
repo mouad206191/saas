@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+float a,b,c,mg;
+printf("entre a");
+scanf("%f",&a);
+printf("entre b");
+scanf("%f",&b);
+printf("entre c");
+scanf("%f",&c);
+mg=pow(a*b*c,1/3);
+printf("mg,%f",mg);
+    return 0;
+}

@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+float a,b,x,h,y,z;
+    printf("veullez entre la valour de a");
+    scanf("%f",&a);
+    printf("veullez entre la valour de b");
+    scanf("%f",&b);
+     x=a+b;
+     h=a-b;
+     y=a*b;
+     z=a/b;
+printf("%f",&x);
+printf("%f",&h);
+printf("%f",&y);
+printf("%f",&z);
+    return 0;
+}

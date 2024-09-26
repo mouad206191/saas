@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+   char c;
+    printf("veullez entre la caractere ?");
+    scanf("%c",&c);
+    switch(c){
+       case 'a':
+       case 'e':
+       case'i':
+       case 'o':
+       case 'u':
+       case 'y':
+     printf("la nomber is voylle");
+       break; 
+      default:
+        printf("la nomber is not voylle");
+}
+
+    return 0;
+}
