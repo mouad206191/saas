@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double a, b, c, moyenne_géométrique;
+    
+    printf("Entrez le premier nombre: ");
+    scanf("%lf", &a);
+    
+    printf("Entrez le deuxième nombre: ");
+    scanf("%lf", &b);
+    
+    printf("Entrez le troisième nombre: ");
+    scanf("%lf", &c);
+    
+    moyenne_géométrique = pow(a * b * c, 1.0 / 3.0);
+    printf("La moyenne géométrique de %f, %f, %f est %f\n", a, b, c, moyenne_géométrique);
+    
+    return 0;
+}
