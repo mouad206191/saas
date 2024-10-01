@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+int main() {
+    int s=1,nomber,i;
+    printf("entrer la nombe:");
+    scanf("%d",&nomber);
+    for(i=1;i<=nomber;i++){
+        s=s*i;}
+        printf("La somme is %d\n",s);
+
+
+    return 0;
+}
